@@ -1,0 +1,6 @@
+; Makes the module available in Drupal: https://www.drupal.org/node/542202
+name = TMGMT Express Checkout
+description = Reduce amount of clicking when creating multiple translation jobs.
+package = Translation Management
+core = 7.x
+dependencies[] = tmgmt
