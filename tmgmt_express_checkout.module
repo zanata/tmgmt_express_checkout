@@ -37,11 +37,6 @@ function tmgmt_express_checkout_menu() {
  */
 function tmgmt_express_checkout_tmgmt_ui_job_checkout_before_alter(&$redirects, &$jobs) {
 
-  // TODO maybe remove this check, to keep it consistent
-  if (sizeof($jobs) < 2) {
-    return;
-  }
-
   // Array of [name => label]
   $translators = tmgmt_translator_labels();
 
