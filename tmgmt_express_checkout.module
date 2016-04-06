@@ -192,7 +192,7 @@ function tmgmt_express_checkout_express_checkout_form_submit($form, &$form_state
   // clear the tmgmt redirect queue since all jobs in the queue are processed.
   tmgmt_ui_redirect_queue_set(array());
 
-  $form_state['redirect'] = 'admin/tmgmt/jobs';
+  $form_state['redirect'] = 'admin/tmgmt';
 }
 
 /**
